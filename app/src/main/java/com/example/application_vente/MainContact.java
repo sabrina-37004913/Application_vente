@@ -33,8 +33,7 @@ public class MainContact extends AppCompatActivity {
         actionBar.setTitle(aTitle);
 
 
-    //Initialise les vues avec notre activity_main.xml
-    // myTextTo =  findViewById(R.id.edit_text_to);
+
     myTextSubject = findViewById(R.id.edit_text_subject);
     myTextMessage = findViewById(R.id.edit_text_message);
     mySendButton = findViewById(R.id.btn_send);
@@ -48,7 +47,7 @@ public class MainContact extends AppCompatActivity {
     });
 }
     public void sendMail(){
-        String[] mails = { "inconnu@gmail.com" };
+        String[] mails = { "nomprenom@gmail.com" };
 
         Intent email = new Intent(Intent.ACTION_SEND);
         email.setType("text/plain");
