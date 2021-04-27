@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:background="@color/rose_2"
+            android:gravity="center_horizontal"
+            android:text="Liste des boutiques de fleurs dans le coin"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:gravity="center"
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        </ListView>
+
+
+</LinearLayout>
