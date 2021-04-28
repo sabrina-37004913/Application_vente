@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
     android:orientation="vertical">
+
 
         <TextView
             android:layout_width="match_parent"
@@ -22,9 +24,35 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycle_boutiques"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"/>
+            android:layout_height="577dp"
+            android:layout_margin="5dp">
 
+                <TextView
+                    android:id="@+id/BoutiquesView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container"
+            >
+
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/rose"
+                    app:itemIconTint="@color/white"
+                    app:itemTextColor="@color/white"
+                    app:menu="@menu/bottom_nav_menu"
+                    />
+
+        </FrameLayout>
 
 
 </LinearLayout>
