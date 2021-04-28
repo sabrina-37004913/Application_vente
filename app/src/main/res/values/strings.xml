@@ -13,8 +13,8 @@
 
     <!-- sur la page contact -->
     <string name="contact"> Vous voulez nous contacter ? </string>
-    <!-- <string name="yoursubject"> L\\' objet de votre message :  </string>
-    <string name="sujet"> Tapez l\\'objet de votre message </string>
+     <string name="yoursubject"> L\' objet de votre message :  </string>
+    <string name="sujet"> Tapez l\'objet de votre message </string>
     <string name="envoyezmessage">  Votre message :  </string>
     <string name="message1"> Tapez votre message ici </string>
     <string name="send"> Envoyez</string>
